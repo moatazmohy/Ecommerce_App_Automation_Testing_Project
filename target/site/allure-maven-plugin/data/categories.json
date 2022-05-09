@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: a[class='product-name'] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.3', revision: '7b1ebf28ef'\nSystem info: host: 'MOATAZ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\M\\AppData\\Local\\Te...}, goog:chromeOptions: {debuggerAddress: localhost:3872}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3872/devtool..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 605a8ab5a5a73a422d38c76b7ddfb727",
+      "children" : [ {
+        "name" : "Logged user could add different products to Shopping cart",
+        "uid" : "40df945c20e51acd",
+        "parentUid" : "f96c87bd55f62c1fde365aad9b4c3159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652095432046,
+          "stop" : 1652095445663,
+          "duration" : 13617
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f96c87bd55f62c1fde365aad9b4c3159"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

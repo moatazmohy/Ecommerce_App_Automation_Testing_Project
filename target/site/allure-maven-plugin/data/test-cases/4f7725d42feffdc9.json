@@ -1,0 +1,165 @@
+{
+  "uid" : "4f7725d42feffdc9",
+  "name" : "User could register with valid data",
+  "fullName" : "User Registration: User could register with valid data",
+  "historyId" : "d15a53db02c45d6294c03588605947b",
+  "time" : {
+    "start" : 1652095349484,
+    "stop" : 1652095368808,
+    "duration" : 19324
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hooks.Hooks.openBrowser()",
+    "time" : {
+      "start" : 1652095349486,
+      "stop" : 1652095365051,
+      "duration" : 15565
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to register page",
+      "time" : {
+        "start" : 1652095365055,
+        "stop" : 1652095365895,
+        "duration" : 840
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User fills the required fields with valid data",
+      "time" : {
+        "start" : 1652095365895,
+        "stop" : 1652095366157,
+        "duration" : 262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks register button",
+      "time" : {
+        "start" : 1652095366157,
+        "stop" : 1652095367624,
+        "duration" : 1467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User could register successfully",
+      "time" : {
+        "start" : 1652095367624,
+        "stop" : 1652095367713,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "hooks.Hooks.closeBrowser()",
+    "time" : {
+      "start" : 1652095367714,
+      "stop" : 1652095368807,
+      "duration" : 1093
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "host",
+    "value" : "moataz"
+  }, {
+    "name" : "thread",
+    "value" : "2900@moataz.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "User Registration"
+  }, {
+    "name" : "story",
+    "value" : "User could register with valid data"
+  }, {
+    "name" : "suite",
+    "value" : "User Registration"
+  }, {
+    "name" : "testClass",
+    "value" : "User could register with valid data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/M/IdeaProjects/EcommerceAppAutomationTestingProject/src/main/resources/features/F01_Register.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.main.resources.features.F01_Register_feature.User Registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "4f7725d42feffdc9.json",
+  "parameterValues" : [ ]
+}

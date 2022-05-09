@@ -1,0 +1,240 @@
+{
+  "uid" : "4031b22d0ded6c42",
+  "name" : "Logged user could select different Categories",
+  "fullName" : "Product Color Filter: Logged user could select different Categories",
+  "historyId" : "a7eefa436f8fec6bb2dc9f565bd2990",
+  "time" : {
+    "start" : 1652095405385,
+    "stop" : 1652095414212,
+    "duration" : 8827
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hooks.Hooks.openBrowser()",
+    "time" : {
+      "start" : 1652095405385,
+      "stop" : 1652095408311,
+      "duration" : 2926
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to login page",
+      "time" : {
+        "start" : 1652095408311,
+        "stop" : 1652095409013,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User fills the required fields with valid email and password",
+      "time" : {
+        "start" : 1652095409013,
+        "stop" : 1652095409086,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks login button",
+      "time" : {
+        "start" : 1652095409086,
+        "stop" : 1652095410035,
+        "duration" : 949
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User could login successfully",
+      "time" : {
+        "start" : 1652095410035,
+        "stop" : 1652095410067,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User hover over apparel category",
+      "time" : {
+        "start" : 1652095410067,
+        "stop" : 1652095410195,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks shoes sub-Category",
+      "time" : {
+        "start" : 1652095410195,
+        "stop" : 1652095411089,
+        "duration" : 894
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User selects red color",
+      "time" : {
+        "start" : 1652095411089,
+        "stop" : 1652095411123,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks filtered item",
+      "time" : {
+        "start" : 1652095411124,
+        "stop" : 1652095414059,
+        "duration" : 2935
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Red color should be found",
+      "time" : {
+        "start" : 1652095414059,
+        "stop" : 1652095414085,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ {
+    "name" : "hooks.Hooks.closeBrowser()",
+    "time" : {
+      "start" : 1652095414085,
+      "stop" : 1652095414212,
+      "duration" : 127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "host",
+    "value" : "moataz"
+  }, {
+    "name" : "thread",
+    "value" : "2900@moataz.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Product Color Filter"
+  }, {
+    "name" : "story",
+    "value" : "Logged user could select different Categories"
+  }, {
+    "name" : "suite",
+    "value" : "Product Color Filter"
+  }, {
+    "name" : "testClass",
+    "value" : "Logged user could select different Categories"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/M/IdeaProjects/EcommerceAppAutomationTestingProject/src/main/resources/features/F07_ColorFilter.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.main.resources.features.F07_ColorFilter_feature.Product Color Filter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "4031b22d0ded6c42.json",
+  "parameterValues" : [ ]
+}

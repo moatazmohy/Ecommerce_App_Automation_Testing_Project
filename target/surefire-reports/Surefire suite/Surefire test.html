@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 09 13:22:28 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>154 seconds (154312 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could add different products to Shopping cart", "Optional[Add Product to Cart]"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[class=&apos;product-name&apos;] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;MOATAZ&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\M\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:3872}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3872/devtool..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 605a8ab5a5a73a422d38c76b7ddfb727
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pages.CartPage.getProductAddedTitle(CartPage.java:32)
+	at step_definitions.AddToCartStepDefinition.product_added_successfully_to_the_cart(AddToCartStepDefinition.java:49)
+	at ?.Product added successfully to the cart(file:///C:/Users/M/IdeaProjects/EcommerceAppAutomationTestingProject/src/main/resources/features/F09_AddToCart.feature:15)
+</pre></div><a href='#' onClick='toggleBox("stack-trace342419584", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace342419584'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[class=&apos;product-name&apos;] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;MOATAZ&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\M\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:3872}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3872/devtool..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 605a8ab5a5a73a422d38c76b7ddfb727
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pages.CartPage.getProductAddedTitle(CartPage.java:32)
+	at step_definitions.AddToCartStepDefinition.product_added_successfully_to_the_cart(AddToCartStepDefinition.java:49)
+	at ?.Product added successfully to the cart(file:///C:/Users/M/IdeaProjects/EcommerceAppAutomationTestingProject/src/main/resources/features/F09_AddToCart.feature:15)
+</pre></div></td>
+<td>13</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User could log in with valid email and password", "Optional[User Login]"</td>
+<td></td>
+<td>7</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can create successful Order", "Optional[Create Order]"</td>
+<td></td>
+<td>14</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged User could search for any product", "Optional[Product Search]"</td>
+<td></td>
+<td>9</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could select different tags from side menu", "Optional[Product Tags]"</td>
+<td></td>
+<td>8</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could add different products to Wishlist", "Optional[Add Product to Wishlist]"</td>
+<td></td>
+<td>7</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could add different products to compare list", "Optional[Add Products to Compare List]"</td>
+<td></td>
+<td>10</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could select different Categories", "Optional[Product Color Filter]"</td>
+<td></td>
+<td>8</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could add different products to Shopping cart from the product page", "Optional[Add Product to Cart]"</td>
+<td></td>
+<td>12</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User could reset his/her password successfully", "Optional[Resting Password]"</td>
+<td></td>
+<td>5</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could add different products to Wishlist from the product page", "Optional[Add Product to Wishlist]"</td>
+<td></td>
+<td>11</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could select different tags from tags page", "Optional[Product Tags]"</td>
+<td></td>
+<td>9</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could select different Categories", "Optional[Select different categories]"</td>
+<td></td>
+<td>6</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User could register with valid data", "Optional[User Registration]"</td>
+<td></td>
+<td>19</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged User could switch between currencies US-Euro", "Optional[Change Currency]"</td>
+<td></td>
+<td>7</td>
+<td>testrunner.TestRunner@29176cc1</td></tr>
+</table><p>
+</body>
+</html>

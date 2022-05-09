@@ -1,0 +1,210 @@
+{
+  "uid" : "ba99b6a0816d6286",
+  "name" : "Logged user could select different Categories",
+  "fullName" : "Select different categories: Logged user could select different Categories",
+  "historyId" : "44b2abccb1939c617552d82c05388136",
+  "time" : {
+    "start" : 1652095398457,
+    "stop" : 1652095405374,
+    "duration" : 6917
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hooks.Hooks.openBrowser()",
+    "time" : {
+      "start" : 1652095398457,
+      "stop" : 1652095402451,
+      "duration" : 3994
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to login page",
+      "time" : {
+        "start" : 1652095402451,
+        "stop" : 1652095403114,
+        "duration" : 663
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User fills the required fields with valid email and password",
+      "time" : {
+        "start" : 1652095403114,
+        "stop" : 1652095403188,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks login button",
+      "time" : {
+        "start" : 1652095403188,
+        "stop" : 1652095404221,
+        "duration" : 1033
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User could login successfully",
+      "time" : {
+        "start" : 1652095404221,
+        "stop" : 1652095404253,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User hover over Computers category",
+      "time" : {
+        "start" : 1652095404253,
+        "stop" : 1652095404378,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks Desktops sub-Category",
+      "time" : {
+        "start" : 1652095404378,
+        "stop" : 1652095405241,
+        "duration" : 863
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Category result is displaying",
+      "time" : {
+        "start" : 1652095405241,
+        "stop" : 1652095405272,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "hooks.Hooks.closeBrowser()",
+    "time" : {
+      "start" : 1652095405272,
+      "stop" : 1652095405374,
+      "duration" : 102
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "host",
+    "value" : "moataz"
+  }, {
+    "name" : "thread",
+    "value" : "2900@moataz.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Select different categories"
+  }, {
+    "name" : "story",
+    "value" : "Logged user could select different Categories"
+  }, {
+    "name" : "suite",
+    "value" : "Select different categories"
+  }, {
+    "name" : "testClass",
+    "value" : "Logged user could select different Categories"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/M/IdeaProjects/EcommerceAppAutomationTestingProject/src/main/resources/features/F06_Categories.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.main.resources.features.F06_Categories_feature.Select different categories"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "ba99b6a0816d6286.json",
+  "parameterValues" : [ ]
+}

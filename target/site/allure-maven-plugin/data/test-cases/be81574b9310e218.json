@@ -1,0 +1,255 @@
+{
+  "uid" : "be81574b9310e218",
+  "name" : "Logged user could add different products to Shopping cart from the product page",
+  "fullName" : "Add Product to Cart: Logged user could add different products to Shopping cart from the product page",
+  "historyId" : "379f977f65f388c141f58304c2ae19d",
+  "time" : {
+    "start" : 1652095445673,
+    "stop" : 1652095458505,
+    "duration" : 12832
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hooks.Hooks.openBrowser()",
+    "time" : {
+      "start" : 1652095445673,
+      "stop" : 1652095449619,
+      "duration" : 3946
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to login page",
+      "time" : {
+        "start" : 1652095449619,
+        "stop" : 1652095450241,
+        "duration" : 622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User fills the required fields with valid email and password",
+      "time" : {
+        "start" : 1652095450242,
+        "stop" : 1652095450315,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks login button",
+      "time" : {
+        "start" : 1652095450315,
+        "stop" : 1652095451039,
+        "duration" : 724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User could login successfully",
+      "time" : {
+        "start" : 1652095451039,
+        "stop" : 1652095451069,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User hover over electronics category",
+      "time" : {
+        "start" : 1652095451069,
+        "stop" : 1652095451194,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks Cell Phones sub-Category",
+      "time" : {
+        "start" : 1652095451194,
+        "stop" : 1652095453480,
+        "duration" : 2286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks a product from the shown products",
+      "time" : {
+        "start" : 1652095453480,
+        "stop" : 1652095456001,
+        "duration" : 2521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks add to cart of the product",
+      "time" : {
+        "start" : 1652095456001,
+        "stop" : 1652095456055,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User goes to cart",
+      "time" : {
+        "start" : 1652095456055,
+        "stop" : 1652095458335,
+        "duration" : 2280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  The Product added successfully to the cart",
+      "time" : {
+        "start" : 1652095458336,
+        "stop" : 1652095458363,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ {
+    "name" : "hooks.Hooks.closeBrowser()",
+    "time" : {
+      "start" : 1652095458363,
+      "stop" : 1652095458505,
+      "duration" : 142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "host",
+    "value" : "moataz"
+  }, {
+    "name" : "thread",
+    "value" : "2900@moataz.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Add Product to Cart"
+  }, {
+    "name" : "story",
+    "value" : "Logged user could add different products to Shopping cart from the product page"
+  }, {
+    "name" : "suite",
+    "value" : "Add Product to Cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Logged user could add different products to Shopping cart from the product page"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/M/IdeaProjects/EcommerceAppAutomationTestingProject/src/main/resources/features/F09_AddToCart.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.main.resources.features.F09_AddToCart_feature.Add Product to Cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "be81574b9310e218.json",
+  "parameterValues" : [ ]
+}

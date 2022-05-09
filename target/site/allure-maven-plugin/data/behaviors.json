@@ -1,0 +1,308 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "User Registration",
+    "children" : [ {
+      "name" : "User could register with valid data",
+      "children" : [ {
+        "name" : "User could register with valid data",
+        "uid" : "4f7725d42feffdc9",
+        "parentUid" : "82019c10e1e20d9c9cfc9b05780a1c25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095349484,
+          "stop" : 1652095368808,
+          "duration" : 19324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82019c10e1e20d9c9cfc9b05780a1c25"
+    } ],
+    "uid" : "865cfacb3500a558f339449c1e9ef3b9"
+  }, {
+    "name" : "User Login",
+    "children" : [ {
+      "name" : "User could log in with valid email and password",
+      "children" : [ {
+        "name" : "User could log in with valid email and password",
+        "uid" : "ffe704a09b9f63ac",
+        "parentUid" : "6928f92e0188d5161fb4f04e97147b9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095368868,
+          "stop" : 1652095376319,
+          "duration" : 7451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6928f92e0188d5161fb4f04e97147b9c"
+    } ],
+    "uid" : "96f1ef6a59ed61dd3c0e07ef4b580c39"
+  }, {
+    "name" : "Resting Password",
+    "children" : [ {
+      "name" : "User could reset his/her password successfully",
+      "children" : [ {
+        "name" : "User could reset his/her password successfully",
+        "uid" : "4fae768f57948f85",
+        "parentUid" : "a62e3bb8f6690bfdb345267c5b74ac26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095376332,
+          "stop" : 1652095381930,
+          "duration" : 5598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a62e3bb8f6690bfdb345267c5b74ac26"
+    } ],
+    "uid" : "b53da381325516ab1b7915ef29ecb8f0"
+  }, {
+    "name" : "Product Search",
+    "children" : [ {
+      "name" : "Logged User could search for any product",
+      "children" : [ {
+        "name" : "Logged User could search for any product",
+        "uid" : "6d42168450807611",
+        "parentUid" : "a8c78264991389e161d8a7c210be2630",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095381941,
+          "stop" : 1652095390968,
+          "duration" : 9027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8c78264991389e161d8a7c210be2630"
+    } ],
+    "uid" : "d8ac3f9c42ed686dec416f945d549a97"
+  }, {
+    "name" : "Change Currency",
+    "children" : [ {
+      "name" : "Logged User could switch between currencies US-Euro",
+      "children" : [ {
+        "name" : "Logged User could switch between currencies US-Euro",
+        "uid" : "488eb3e05457eed5",
+        "parentUid" : "64f98fcbc1c2c6790ab725d5a83cd73a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095390981,
+          "stop" : 1652095398446,
+          "duration" : 7465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64f98fcbc1c2c6790ab725d5a83cd73a"
+    } ],
+    "uid" : "796e8de95417482960c11beea2551bc8"
+  }, {
+    "name" : "Select different categories",
+    "children" : [ {
+      "name" : "Logged user could select different Categories",
+      "children" : [ {
+        "name" : "Logged user could select different Categories",
+        "uid" : "ba99b6a0816d6286",
+        "parentUid" : "c2071301c9fc6086ff15736e76fbc5e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095398457,
+          "stop" : 1652095405374,
+          "duration" : 6917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2071301c9fc6086ff15736e76fbc5e1"
+    } ],
+    "uid" : "a31cfc54aa163644c069f217e8fdef58"
+  }, {
+    "name" : "Product Color Filter",
+    "children" : [ {
+      "name" : "Logged user could select different Categories",
+      "children" : [ {
+        "name" : "Logged user could select different Categories",
+        "uid" : "4031b22d0ded6c42",
+        "parentUid" : "9205e9a34d017e1eb7a7c03c20149ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095405385,
+          "stop" : 1652095414212,
+          "duration" : 8827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9205e9a34d017e1eb7a7c03c20149ca2"
+    } ],
+    "uid" : "2b97b712b2ad18fda563a0e4985d2517"
+  }, {
+    "name" : "Product Tags",
+    "children" : [ {
+      "name" : "Logged user could select different tags from side menu",
+      "children" : [ {
+        "name" : "Logged user could select different tags from side menu",
+        "uid" : "e068c6a472307aa1",
+        "parentUid" : "37d6b21a4d6f8499584e1cf56c79a095",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095414222,
+          "stop" : 1652095422397,
+          "duration" : 8175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37d6b21a4d6f8499584e1cf56c79a095"
+    }, {
+      "name" : "Logged user could select different tags from tags page",
+      "children" : [ {
+        "name" : "Logged user could select different tags from tags page",
+        "uid" : "c6ca9022c304f8c2",
+        "parentUid" : "75d0557ba6b275288a5c9cb50beab938",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095422406,
+          "stop" : 1652095432036,
+          "duration" : 9630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "75d0557ba6b275288a5c9cb50beab938"
+    } ],
+    "uid" : "1efb7ab084e018a4c14b2e2285195e59"
+  }, {
+    "name" : "Add Product to Cart",
+    "children" : [ {
+      "name" : "Logged user could add different products to Shopping cart",
+      "children" : [ {
+        "name" : "Logged user could add different products to Shopping cart",
+        "uid" : "40df945c20e51acd",
+        "parentUid" : "53a5bbd874c605805730b2fe194fef66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652095432046,
+          "stop" : 1652095445663,
+          "duration" : 13617
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53a5bbd874c605805730b2fe194fef66"
+    }, {
+      "name" : "Logged user could add different products to Shopping cart from the product page",
+      "children" : [ {
+        "name" : "Logged user could add different products to Shopping cart from the product page",
+        "uid" : "be81574b9310e218",
+        "parentUid" : "5d0f59793229928a7c1cf19c702f1653",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095445673,
+          "stop" : 1652095458505,
+          "duration" : 12832
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d0f59793229928a7c1cf19c702f1653"
+    } ],
+    "uid" : "2344b16cde9631a829ee3963c16e57dc"
+  }, {
+    "name" : "Add Product to Wishlist",
+    "children" : [ {
+      "name" : "Logged user could add different products to Wishlist",
+      "children" : [ {
+        "name" : "Logged user could add different products to Wishlist",
+        "uid" : "933b195e2c9c7d1b",
+        "parentUid" : "46767eff4df08f8962246cecea0311ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095458514,
+          "stop" : 1652095466028,
+          "duration" : 7514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46767eff4df08f8962246cecea0311ca"
+    }, {
+      "name" : "Logged user could add different products to Wishlist from the product page",
+      "children" : [ {
+        "name" : "Logged user could add different products to Wishlist from the product page",
+        "uid" : "2b52aee74e6103ef",
+        "parentUid" : "bb0cad68e2a6235bb2b04522749b8864",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095466036,
+          "stop" : 1652095477732,
+          "duration" : 11696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb0cad68e2a6235bb2b04522749b8864"
+    } ],
+    "uid" : "e1bf43c3a3a9363711fde9a026f95893"
+  }, {
+    "name" : "Add Products to Compare List",
+    "children" : [ {
+      "name" : "Logged user could add different products to compare list",
+      "children" : [ {
+        "name" : "Logged user could add different products to compare list",
+        "uid" : "29e0d932ea782f5e",
+        "parentUid" : "3cd69ca75f5e19a26f66702e67febe15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095477741,
+          "stop" : 1652095488047,
+          "duration" : 10306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cd69ca75f5e19a26f66702e67febe15"
+    } ],
+    "uid" : "b5f6c84eabcc3f0e186c046fd2e23397"
+  }, {
+    "name" : "Create Order",
+    "children" : [ {
+      "name" : "User can create successful Order",
+      "children" : [ {
+        "name" : "User can create successful Order",
+        "uid" : "e862baecd2f72c37",
+        "parentUid" : "567ed35e0d5ace0df1355f01bd2066da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652095488057,
+          "stop" : 1652095502822,
+          "duration" : 14765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "567ed35e0d5ace0df1355f01bd2066da"
+    } ],
+    "uid" : "8822faccc0a2c4b768851a0fb7f3aa85"
+  } ]
+}

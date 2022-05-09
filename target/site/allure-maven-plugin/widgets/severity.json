@@ -1,0 +1,151 @@
+[ {
+  "uid" : "6d42168450807611",
+  "name" : "Logged User could search for any product",
+  "time" : {
+    "start" : 1652095381941,
+    "stop" : 1652095390968,
+    "duration" : 9027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f7725d42feffdc9",
+  "name" : "User could register with valid data",
+  "time" : {
+    "start" : 1652095349484,
+    "stop" : 1652095368808,
+    "duration" : 19324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6ca9022c304f8c2",
+  "name" : "Logged user could select different tags from tags page",
+  "time" : {
+    "start" : 1652095422406,
+    "stop" : 1652095432036,
+    "duration" : 9630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29e0d932ea782f5e",
+  "name" : "Logged user could add different products to compare list",
+  "time" : {
+    "start" : 1652095477741,
+    "stop" : 1652095488047,
+    "duration" : 10306
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fae768f57948f85",
+  "name" : "User could reset his/her password successfully",
+  "time" : {
+    "start" : 1652095376332,
+    "stop" : 1652095381930,
+    "duration" : 5598
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b52aee74e6103ef",
+  "name" : "Logged user could add different products to Wishlist from the product page",
+  "time" : {
+    "start" : 1652095466036,
+    "stop" : 1652095477732,
+    "duration" : 11696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e068c6a472307aa1",
+  "name" : "Logged user could select different tags from side menu",
+  "time" : {
+    "start" : 1652095414222,
+    "stop" : 1652095422397,
+    "duration" : 8175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be81574b9310e218",
+  "name" : "Logged user could add different products to Shopping cart from the product page",
+  "time" : {
+    "start" : 1652095445673,
+    "stop" : 1652095458505,
+    "duration" : 12832
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40df945c20e51acd",
+  "name" : "Logged user could add different products to Shopping cart",
+  "time" : {
+    "start" : 1652095432046,
+    "stop" : 1652095445663,
+    "duration" : 13617
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "933b195e2c9c7d1b",
+  "name" : "Logged user could add different products to Wishlist",
+  "time" : {
+    "start" : 1652095458514,
+    "stop" : 1652095466028,
+    "duration" : 7514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "488eb3e05457eed5",
+  "name" : "Logged User could switch between currencies US-Euro",
+  "time" : {
+    "start" : 1652095390981,
+    "stop" : 1652095398446,
+    "duration" : 7465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba99b6a0816d6286",
+  "name" : "Logged user could select different Categories",
+  "time" : {
+    "start" : 1652095398457,
+    "stop" : 1652095405374,
+    "duration" : 6917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffe704a09b9f63ac",
+  "name" : "User could log in with valid email and password",
+  "time" : {
+    "start" : 1652095368868,
+    "stop" : 1652095376319,
+    "duration" : 7451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e862baecd2f72c37",
+  "name" : "User can create successful Order",
+  "time" : {
+    "start" : 1652095488057,
+    "stop" : 1652095502822,
+    "duration" : 14765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4031b22d0ded6c42",
+  "name" : "Logged user could select different Categories",
+  "time" : {
+    "start" : 1652095405385,
+    "stop" : 1652095414212,
+    "duration" : 8827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

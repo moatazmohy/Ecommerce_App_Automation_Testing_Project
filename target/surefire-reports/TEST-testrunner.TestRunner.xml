@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testrunner.TestRunner" time="154.708" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\M\.cache\selenium\chromedriver\win32\101.0.4951.41\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1256"/>
+    <property name="java.class.path" value="C:\Users\M\IdeaProjects\EcommerceAppAutomationTestingProject\target\test-classes;C:\Users\M\IdeaProjects\EcommerceAppAutomationTestingProject\target\classes;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.3\selenium-java-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.3\selenium-api-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.3\selenium-chrome-driver-4.1.3.jar;C:\Users\M\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\M\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\M\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\M\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\M\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\M\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\M\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\M\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\M\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\M\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.3\selenium-chromium-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.3\selenium-json-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.3\selenium-devtools-v85-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.3\selenium-devtools-v97-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v98\4.1.3\selenium-devtools-v98-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.3\selenium-devtools-v99-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.3\selenium-edge-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.3\selenium-firefox-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.3\selenium-ie-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.3\selenium-opera-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.3\selenium-remote-driver-4.1.3.jar;C:\Users\M\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\M\.m2\repository\io\netty\netty-buffer\4.1.75.Final\netty-buffer-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-codec-http\4.1.75.Final\netty-codec-http-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-codec\4.1.75.Final\netty-codec-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-handler\4.1.75.Final\netty-handler-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-common\4.1.75.Final\netty-common-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.75.Final\netty-transport-classes-epoll-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.75.Final\netty-transport-classes-kqueue-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-native-epoll\4.1.75.Final\netty-transport-native-epoll-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.75.Final\netty-transport-native-kqueue-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.75.Final\netty-transport-native-unix-common-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport\4.1.75.Final\netty-transport-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-resolver\4.1.75.Final\netty-resolver-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-api\1.12.0\opentelemetry-api-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-context\1.12.0\opentelemetry-context-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.12.0\opentelemetry-exporter-logging-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.12.0-alpha\opentelemetry-sdk-metrics-1.12.0-alpha.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.12.0-alpha\opentelemetry-sdk-logs-1.12.0-alpha.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.12.0\opentelemetry-sdk-common-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.12.0\opentelemetry-sdk-extension-autoconfigure-spi-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.12.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.12.0-alpha.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.12.0\opentelemetry-sdk-trace-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.12.0\opentelemetry-sdk-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.12.0-alpha\opentelemetry-semconv-1.12.0-alpha.jar;C:\Users\M\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\M\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\M\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\M\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\M\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\M\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\M\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\M\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\M\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.3\selenium-http-4.1.3.jar;C:\Users\M\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.3\selenium-safari-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.3\selenium-support-4.1.3.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\M\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\M\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\M\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\M\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\M\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\M\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\M\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.1\webdrivermanager-5.1.1.jar;C:\Users\M\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\M\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\M\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\M\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\M\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\M\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\M\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\M\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\M\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\M\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\M\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\M\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\M\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\M\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\M\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\M\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\M\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\M\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\M\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\M\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\M\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\M\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\M\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.17.3\allure-cucumber7-jvm-2.17.3.jar;C:\Users\M\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\M\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\M\.m2\repository\io\cucumber\gherkin\22.0.0\gherkin-22.0.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\M\AppData\Local\Temp\surefire8386415285365647727\surefirebooter8402826336714796634.jar C:\Users\M\AppData\Local\Temp\surefire8386415285365647727 2022-05-09T13-22-22_070-jvmRun1 surefire1104005127657399678tmp surefire_0428751370042784400tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\M\IdeaProjects\EcommerceAppAutomationTestingProject\target\test-classes;C:\Users\M\IdeaProjects\EcommerceAppAutomationTestingProject\target\classes;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.3\selenium-java-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.3\selenium-api-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.3\selenium-chrome-driver-4.1.3.jar;C:\Users\M\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\M\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\M\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\M\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\M\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\M\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\M\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\M\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\M\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\M\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.3\selenium-chromium-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.3\selenium-json-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.3\selenium-devtools-v85-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.3\selenium-devtools-v97-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v98\4.1.3\selenium-devtools-v98-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.3\selenium-devtools-v99-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.3\selenium-edge-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.3\selenium-firefox-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.3\selenium-ie-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.3\selenium-opera-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.3\selenium-remote-driver-4.1.3.jar;C:\Users\M\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\M\.m2\repository\io\netty\netty-buffer\4.1.75.Final\netty-buffer-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-codec-http\4.1.75.Final\netty-codec-http-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-codec\4.1.75.Final\netty-codec-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-handler\4.1.75.Final\netty-handler-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-common\4.1.75.Final\netty-common-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.75.Final\netty-transport-classes-epoll-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.75.Final\netty-transport-classes-kqueue-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-native-epoll\4.1.75.Final\netty-transport-native-epoll-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.75.Final\netty-transport-native-kqueue-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.75.Final\netty-transport-native-unix-common-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport\4.1.75.Final\netty-transport-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-resolver\4.1.75.Final\netty-resolver-4.1.75.Final.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-api\1.12.0\opentelemetry-api-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-context\1.12.0\opentelemetry-context-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.12.0\opentelemetry-exporter-logging-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.12.0-alpha\opentelemetry-sdk-metrics-1.12.0-alpha.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.12.0-alpha\opentelemetry-sdk-logs-1.12.0-alpha.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.12.0\opentelemetry-sdk-common-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.12.0\opentelemetry-sdk-extension-autoconfigure-spi-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.12.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.12.0-alpha.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.12.0\opentelemetry-sdk-trace-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.12.0\opentelemetry-sdk-1.12.0.jar;C:\Users\M\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.12.0-alpha\opentelemetry-semconv-1.12.0-alpha.jar;C:\Users\M\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\M\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\M\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\M\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\M\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\M\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\M\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\M\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\M\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\M\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.3\selenium-http-4.1.3.jar;C:\Users\M\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.3\selenium-safari-driver-4.1.3.jar;C:\Users\M\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.3\selenium-support-4.1.3.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\M\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\M\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\M\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\M\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\M\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\M\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\M\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\M\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\M\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.1\webdrivermanager-5.1.1.jar;C:\Users\M\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\M\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\M\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\M\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\M\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\M\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\M\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\M\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\M\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\M\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\M\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\M\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\M\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\M\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\M\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\M\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\M\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\M\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\M\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\M\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\M\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\M\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\M\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.17.3\allure-cucumber7-jvm-2.17.3.jar;C:\Users\M\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\M\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\M\.m2\repository\io\cucumber\gherkin\22.0.0\gherkin-22.0.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\M"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\M\IdeaProjects\EcommerceAppAutomationTestingProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\M\AppData\Local\Temp\surefire8386415285365647727\surefirebooter8402826336714796634.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="M"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1256"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\M\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\M\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\M\IdeaProjects\EcommerceAppAutomationTestingProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1256"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;J:\IMT\Tools\TOOL\mingw64\bin;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.10\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\M\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\M\AppData\Local\Microsoft\WindowsApps;C:\Users\M\AppData\Roaming\npm;C:\Users\M\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\M\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User could register with valid data&quot;, &quot;Optional[User Registration]&quot;](1)" classname="testrunner.TestRunner" time="19.474">
+    <system-out><![CDATA[
+@regression
+Scenario: User could register with valid data         &amp#27;[90m# src/main/resources/features/F01_Register.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to register page&amp#27;[0m               &amp#27;[90m# step_definitions.RegisterStepDefinition.user_navigates_to_register_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid data&amp#27;[0m &amp#27;[90m# step_definitions.RegisterStepDefinition.user_fills_the_required_fields_with_valid_data()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks register button&amp#27;[0m                     &amp#27;[90m# step_definitions.RegisterStepDefinition.user_clicks_register_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could register successfully&amp#27;[0m               &amp#27;[90m# step_definitions.RegisterStepDefinition.user_could_register_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 52077
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:22:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:22:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:22:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+May 09, 2022 1:22:48 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User could log in with valid email and password&quot;, &quot;Optional[User Login]&quot;](2)" classname="testrunner.TestRunner" time="7.47">
+    <system-out><![CDATA[
+@regression
+Scenario: User could log in with valid email and password           &amp#27;[90m# src/main/resources/features/F02_Login.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 63442
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:22:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:22:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:22:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User could reset his/her password successfully&quot;, &quot;Optional[Resting Password]&quot;](3)" classname="testrunner.TestRunner" time="5.611">
+    <system-out><![CDATA[
+@regression
+Scenario: User could reset his/her password successfully    &amp#27;[90m# src/main/resources/features/F03_ResetPassword.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                        &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks forgot password button&amp#27;[0m                    &amp#27;[90m# step_definitions.ResetPasswordStepDefinition.user_clicks_forgot_password_button()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required email field with valid email&amp#27;[0m &amp#27;[90m# step_definitions.ResetPasswordStepDefinition.user_fills_the_required_email_field_with_valid_email()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks recover button&amp#27;[0m                            &amp#27;[90m# step_definitions.ResetPasswordStepDefinition.user_clicks_recover_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mInstructions email message should be displayed&amp#27;[0m       &amp#27;[90m# step_definitions.ResetPasswordStepDefinition.instructions_email_message_should_be_displayed()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 49732
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:22:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:22:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:22:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged User could search for any product&quot;, &quot;Optional[Product Search]&quot;](4)" classname="testrunner.TestRunner" time="9.04">
+    <system-out><![CDATA[
+@regression
+Scenario: Logged User could search for any product                  &amp#27;[90m# src/main/resources/features/F04_Search.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks search field&amp#27;[0m                                     &amp#27;[90m# step_definitions.SearchStepDefinition.user_clicks_search_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser fills the search field&amp#27;[0m                                   &amp#27;[90m# step_definitions.SearchStepDefinition.user_fills_the_search_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks search result from the result menu&amp#27;[0m                &amp#27;[90m# step_definitions.SearchStepDefinition.user_clicks_search_result_from_the_result_menu()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mSearch result should be displayed as the user's search&amp#27;[0m       &amp#27;[90m# step_definitions.SearchStepDefinition.search_result_should_be_displayed_as_the_user_s_search()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 54169
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:23:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:23:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:23:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged User could switch between currencies US-Euro&quot;, &quot;Optional[Change Currency]&quot;](5)" classname="testrunner.TestRunner" time="7.476">
+    <system-out><![CDATA[
+@regression
+Scenario: Logged User could switch between currencies US-Euro       &amp#27;[90m# src/main/resources/features/F05_ChangeTheCurrency.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks currency button&amp#27;[0m                                  &amp#27;[90m# step_definitions.ChangeCurrencyStepDefinition.user_clicks_currency_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks euro button&amp#27;[0m                                       &amp#27;[90m# step_definitions.ChangeCurrencyStepDefinition.user_clicks_euro_button()&amp#27;[0m
+€1032.00
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCurrency changes to euro&amp#27;[0m                                     &amp#27;[90m# step_definitions.ChangeCurrencyStepDefinition.currency_changes_to_euro()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 59220
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:23:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:23:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:23:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged user could select different Categories&quot;, &quot;Optional[Select different categories]&quot;](6)" classname="testrunner.TestRunner" time="6.928">
+    <system-out><![CDATA[
+@regression
+Scenario: Logged user could select different Categories             &amp#27;[90m# src/main/resources/features/F06_Categories.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser hover over Computers category&amp#27;[0m                           &amp#27;[90m# step_definitions.CategoriesStepDefinition.user_hover_over_Computers_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Desktops sub-Category&amp#27;[0m                             &amp#27;[90m# step_definitions.CategoriesStepDefinition.user_clicks_Desktop_sub_category()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCategory result is displaying&amp#27;[0m                                &amp#27;[90m# step_definitions.CategoriesStepDefinition.category_result_is_displaying()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 58423
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:23:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:23:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:23:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged user could select different Categories&quot;, &quot;Optional[Product Color Filter]&quot;](7)" classname="testrunner.TestRunner" time="8.838">
+    <system-out><![CDATA[
+@regression
+Scenario: Logged user could select different Categories             &amp#27;[90m# src/main/resources/features/F07_ColorFilter.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser hover over apparel category&amp#27;[0m                             &amp#27;[90m# step_definitions.ColorFilterStepDefinition.user_hover_over_apparel_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks shoes sub-Category&amp#27;[0m                                &amp#27;[90m# step_definitions.ColorFilterStepDefinition.user_clicks_shoes_sub_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects red color&amp#27;[0m                                        &amp#27;[90m# step_definitions.ColorFilterStepDefinition.user_selects_red_color()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks filtered item&amp#27;[0m                                     &amp#27;[90m# step_definitions.ColorFilterStepDefinition.user_clicks_filtered_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mRed color should be found&amp#27;[0m                                    &amp#27;[90m# step_definitions.ColorFilterStepDefinition.red_color_should_be_found()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 53322
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:23:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:23:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:23:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged user could select different tags from side menu&quot;, &quot;Optional[Product Tags]&quot;](8)" classname="testrunner.TestRunner" time="8.186">
+    <system-out><![CDATA[
+@regression
+Scenario: Logged user could select different tags from side menu    &amp#27;[90m# src/main/resources/features/F08_Tags.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser clicks Computers category&amp#27;[0m                              &amp#27;[90m# step_definitions.TagsStepDefinition.user_clicks_computers_category()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser scrolls down to tags section and clicks a tag&amp#27;[0m           &amp#27;[90m# step_definitions.TagsStepDefinition.user_scrolls_down_to_tags_section_and_clicks_a_tag()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mChosen tag page is opened&amp#27;[0m                                    &amp#27;[90m# step_definitions.TagsStepDefinition.chosen_tag_page_is_opened()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 57457
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:23:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:23:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:23:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged user could select different tags from tags page&quot;, &quot;Optional[Product Tags]&quot;](9)" classname="testrunner.TestRunner" time="9.638">
+    <system-out><![CDATA[
+@regression
+Scenario: Logged user could select different tags from tags page    &amp#27;[90m# src/main/resources/features/F08_Tags.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser clicks Computers category&amp#27;[0m                              &amp#27;[90m# step_definitions.TagsStepDefinition.user_clicks_computers_category()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser scrolls down to tags section and clicks view all&amp#27;[0m        &amp#27;[90m# step_definitions.TagsStepDefinition.user_scrolls_down_to_tags_section_and_clicks_view_all()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks a tag&amp#27;[0m                                             &amp#27;[90m# step_definitions.TagsStepDefinition.user_clicks_a_tag()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mChosen tag page is opened&amp#27;[0m                                    &amp#27;[90m# step_definitions.TagsStepDefinition.chosen_tag_page_is_opened()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 56401
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:23:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:23:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:23:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged user could add different products to Shopping cart from the product page&quot;, &quot;Optional[Add Product to Cart]&quot;](11)" classname="testrunner.TestRunner" time="12.798">
+    <system-out><![CDATA[
+@regression
+Scenario: Logged user could add different products to Shopping cart &amp#27;[90m# src/main/resources/features/F09_AddToCart.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser hover over electronics category&amp#27;[0m                         &amp#27;[90m# step_definitions.AddToCartStepDefinition.user_hover_over_electronics_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Camera & photo sub-Category&amp#27;[0m                       &amp#27;[90m# step_definitions.AddToCartStepDefinition.user_clicks_camera_photo_sub_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks add to cart of a product&amp#27;[0m                          &amp#27;[90m# step_definitions.AddToCartStepDefinition.user_clicks_add_to_cart_of_a_product()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser goes to cart&amp#27;[0m                                             &amp#27;[90m# step_definitions.AddToCartStepDefinition.user_goes_to_cart()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mProduct added successfully to the cart&amp#27;[0m                       &amp#27;[90m# step_definitions.AddToCartStepDefinition.product_added_successfully_to_the_cart()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[class='product-name'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'MOATAZ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\M\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:3872}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3872/devtool..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 605a8ab5a5a73a422d38c76b7ddfb727
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pages.CartPage.getProductAddedTitle(CartPage.java:32)
+	at step_definitions.AddToCartStepDefinition.product_added_successfully_to_the_cart(AddToCartStepDefinition.java:49)
+	at âœ½.Product added successfully to the cart(file:///C:/Users/M/IdeaProjects/EcommerceAppAutomationTestingProject/src/main/resources/features/F09_AddToCart.feature:15)
+&amp#27;[0m
+
+@regression
+Scenario: Logged user could add different products to Shopping cart from the product page &amp#27;[90m# src/main/resources/features/F09_AddToCart.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m                       &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                                            &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser hover over electronics category&amp#27;[0m                                               &amp#27;[90m# step_definitions.AddToCartStepDefinition.user_hover_over_electronics_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Cell Phones sub-Category&amp#27;[0m                                                &amp#27;[90m# step_definitions.AddToCartStepDefinition.user_clicks_cell_phones_sub_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks a product from the shown products&amp#27;[0m                                       &amp#27;[90m# step_definitions.AddToCartStepDefinition.user_clicks_a_product_from_the_shown_products()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks add to cart of the product&amp#27;[0m                                              &amp#27;[90m# step_definitions.AddToCartStepDefinition.user_clicks_add_to_cart_of_the_product()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser goes to cart&amp#27;[0m                                                                   &amp#27;[90m# step_definitions.AddToCartStepDefinition.user_goes_to_cart()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Product added successfully to the cart&amp#27;[0m                                         &amp#27;[90m# step_definitions.AddToCartStepDefinition.theProductAddedSuccessfullyToTheCart()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 55811
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:23:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:23:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:23:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 59982
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:24:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:24:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:24:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged user could add different products to Wishlist&quot;, &quot;Optional[Add Product to Wishlist]&quot;](12)" classname="testrunner.TestRunner" time="7.523">
+    <system-out><![CDATA[
+@regression
+Scenario: Logged user could add different products to Wishlist      &amp#27;[90m# src/main/resources/features/F10_AddToWishlist.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mWishlist is empty&amp#27;[0m                                           &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.wishlist_is_empty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Books category&amp#27;[0m                                   &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.user_clicks_books_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Wishlist button of a product&amp#27;[0m                      &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.user_clicks_wishlist_button_of_a_product()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser goes to Wishlist&amp#27;[0m                                         &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.user_goes_to_wishlist()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mProduct added successfully to the Wishlist&amp#27;[0m                   &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.product_added_successfully_to_the_wishlist()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 55315
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:24:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:24:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:24:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged user could add different products to Wishlist from the product page&quot;, &quot;Optional[Add Product to Wishlist]&quot;](13)" classname="testrunner.TestRunner" time="11.704">
+    <system-out><![CDATA[
+@regression
+Scenario: Logged user could add different products to Wishlist from the product page &amp#27;[90m# src/main/resources/features/F10_AddToWishlist.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                                 &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m                  &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                                       &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                                 &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mWishlist is empty&amp#27;[0m                                                            &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.wishlist_is_empty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks jewelry category&amp#27;[0m                                                  &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.User_clicks_jewelry_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks a jewelry from the shown products&amp#27;[0m                                  &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.User_clicks_a_jewelry_from_the_shown_products()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks add to Wishlist of the product&amp#27;[0m                                     &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.user_clicks_add_to_wishlist_of_the_product()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser goes to Wishlist&amp#27;[0m                                                          &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.user_goes_to_wishlist()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Product added successfully to the Wishlist&amp#27;[0m                                &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.the_product_added_successfully_to_the_wishlist()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 55625
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:24:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:24:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:24:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged user could add different products to compare list&quot;, &quot;Optional[Add Products to Compare List]&quot;](14)" classname="testrunner.TestRunner" time="10.315">
+    <system-out><![CDATA[
+@regression
+Scenario: Logged user could add different products to compare list  &amp#27;[90m# src/main/resources/features/F11_AddToCompareList.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser hover over Computers category&amp#27;[0m                           &amp#27;[90m# step_definitions.CategoriesStepDefinition.user_hover_over_Computers_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Notebooks sub-Category&amp#27;[0m                            &amp#27;[90m# step_definitions.AddToCompareListStepDefinition.user_clicks_notebooks_sub_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks compare button of the first product&amp#27;[0m               &amp#27;[90m# step_definitions.AddToCompareListStepDefinition.user_clicks_compare_button_of_the_first_product()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks the second product&amp#27;[0m                                &amp#27;[90m# step_definitions.AddToCompareListStepDefinition.user_clicks_the_second_product()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks add to compare list of the second product&amp#27;[0m         &amp#27;[90m# step_definitions.AddToCompareListStepDefinition.user_clicks_add_to_compare_list_of_the_second_product()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser goes to compare products page&amp#27;[0m                            &amp#27;[90m# step_definitions.AddToCompareListStepDefinition.user_goes_to_compare_products_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe selected products are displayed&amp#27;[0m                          &amp#27;[90m# step_definitions.AddToCompareListStepDefinition.the_selected_products_are_displayed()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 64310
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:24:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:24:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:24:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User can create successful Order&quot;, &quot;Optional[Create Order]&quot;](15)" classname="testrunner.TestRunner" time="14.775">
+    <system-out><![CDATA[
+@regression
+Scenario: User can create successful Order                          &amp#27;[90m# src/main/resources/features/F12_CreateOrder.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser fills the required fields with valid email and password&amp#27;[0m &amp#27;[90m# step_definitions.LoginStepDefinition.user_fills_the_required_fields_with_valid_email_and_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks login button&amp#27;[0m                                      &amp#27;[90m# step_definitions.LoginStepDefinition.user_clicks_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser could login successfully&amp#27;[0m                                &amp#27;[90m# step_definitions.LoginStepDefinition.user_could_login_successfully()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mShopping cart is empty&amp#27;[0m                                      &amp#27;[90m# step_definitions.CreateOrderStepDefinition.shopping_cart_is_empty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Books category&amp#27;[0m                                   &amp#27;[90m# step_definitions.AddToWishlistStepDefinition.user_clicks_books_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks add to cart of a book&amp#27;[0m                             &amp#27;[90m# step_definitions.CreateOrderStepDefinition.user_clicks_add_to_cart_of_a_book()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser goes to cart&amp#27;[0m                                             &amp#27;[90m# step_definitions.AddToCartStepDefinition.user_goes_to_cart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks checkout button&amp#27;[0m                                   &amp#27;[90m# step_definitions.CreateOrderStepDefinition.user_clicks_checkout_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser fills required fields of billing address&amp#27;[0m                 &amp#27;[90m# step_definitions.CreateOrderStepDefinition.user_fills_required_fields_of_billing_address()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects shipping method and payment method&amp#27;[0m               &amp#27;[90m# step_definitions.CreateOrderStepDefinition.user_selects_shipping_method_and_payment_method()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser confirms the order&amp#27;[0m                                       &amp#27;[90m# step_definitions.CreateOrderStepDefinition.user_confirms_the_order()&amp#27;[0m
+Your order has been successfully processed!
+ORDER NUMBER: 1031
+Click here for order details.
+CONTINUE
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mSuccessful message appears&amp#27;[0m                                   &amp#27;[90m# step_definitions.CreateOrderStepDefinition.successful_message_appears()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 50025
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 09, 2022 1:24:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 1:24:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 1:24:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+</testsuite>
